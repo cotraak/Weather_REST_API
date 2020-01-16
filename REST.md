@@ -45,7 +45,7 @@ sudo apt-get install docker.io
 
 Created a docker hub account and then logged into docker with the docker hub account
 Commands to login to docker:
-sudo docker login -u alekhya315
+sudo docker login -u cotraak
 And then the prompt asks for the user to enter the account password.
 And then the login is succeeded if the password is given correctly.
 
@@ -62,9 +62,9 @@ Command for testing the image built:
 sudo docker run -d --name wf_image -p 80:80 wf_img
 
 Commit:
-sudo docker commit d3b4683ee75d alekhya315/d3b4683ee75d
+sudo docker commit d3b4683ee75d cotraak/d3b4683ee75d
 
 Once the commit is done, the user needs to login to the docker once again so as to push back the image to the repository for future use.
 Command for pushing the image:
-sudo docker push alekhya315/d3b4683ee75d
+sudo docker push cotraak/d3b4683ee75d
 
