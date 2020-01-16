@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Forecast</title>
+</head>
+
+<center>
+<body>
+<h2><center>Weather Forecast</center> </h2>
+<form action="forecast" method="POST">
+<center>
+DATE<br>
+<input type="number" name="date" required></br>
+<br><br>
+<button type="submit" value="submit">Plot Forecast</button>
+</form>
+<h4>Plot</h4>
+<div><img src='{{ value }}'></img></div>
+</center>
+</form>
+</body>
+</html>
